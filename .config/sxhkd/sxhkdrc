@@ -2,7 +2,7 @@ Print
     scrot ~/Screenshots/'%F@%T_$wx$h.png'
 
 shift + @Print
-    scrot -sf ~/Screenshots/'%F@%T_$wx$h.png'
+    scrot -sf ~/Pictures/Screenshots/'%F@%T_$wx$h.png'
 
 ctrl + Print
     mkdir -p /tmp/scrot && scrot /tmp/scrot/'%F@%T_$wx$h.png' -e 'xclip -selection c -t image/png < $f'

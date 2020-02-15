@@ -1,6 +1,3 @@
 #!/bin/zsh
-blurredshot RGB:- | i3lock --raw 3840x2160:rgb --image /dev/stdin $@
-# screenshot=$(mktemp --suffix=.png)
-#blurred=$(mktemp --suffix=.png)
-#scrot -o $screenshot && blur_image $screenshot -o $blurred && i3lock -i $blurred $@
+blurredshot ~/Pictures/Misc/arch-logo.png -gravity center -compose over -composite RGB:- | i3lock --raw 3840x2160:rgb --image /dev/stdin $@
 
