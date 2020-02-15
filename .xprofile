@@ -1,0 +1,10 @@
+xset r rate 200 30
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+xset 600
+xss-lock -l -- screenlock -n & 
+xwallpaper --maximize ~/Pictures/Wallpapers/default

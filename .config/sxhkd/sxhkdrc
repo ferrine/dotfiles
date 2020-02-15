@@ -1,0 +1,14 @@
+Print
+    scrot ~/Screenshots/'%F@%T_$wx$h.png'
+
+shift + @Print
+    scrot -sf ~/Screenshots/'%F@%T_$wx$h.png'
+
+ctrl + Print
+    mkdir -p /tmp/scrot && scrot /tmp/scrot/'%F@%T_$wx$h.png' -e 'xclip -selection c -t image/png < $f'
+
+ctrl + shift + @Print
+    mkdir -p /tmp/scrot && scrot -sf /tmp/scrot/'%F@%T_$wx$h.png' -e 'xclip -selection c -t image/png < $f'
+
+super + z
+    screenlock
