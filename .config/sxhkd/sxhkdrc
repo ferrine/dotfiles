@@ -12,3 +12,7 @@ ctrl + shift + @Print
 
 super + z
     screenlock
+
+super + g
+    chromium
+
