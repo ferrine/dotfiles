@@ -7,4 +7,6 @@ Xft.antialias: 1
 Xft.rgba: rgb
 xset 600
 xss-lock -l -- screenlock -n & 
+xinput set-prop "DELL08AF:00 06CB:76AF Touchpad" "Coordinate Transformation Matrix" 2 0 0 0 2 0 0 0 0.5
+xinput set-prop "DELL08AF:00 06CB:76AF Touchpad" "Accel Speed" 0.1
 xwallpaper --maximize ~/Pictures/Wallpapers/default
