@@ -1,5 +1,5 @@
 Print
-    scrot ~/Screenshots/'%F@%T_$wx$h.png'
+    scrot ~/Pictures/Screenshots/'%F@%T_$wx$h.png'
 
 shift + @Print
     scrot -sf ~/Pictures/Screenshots/'%F@%T_$wx$h.png'
