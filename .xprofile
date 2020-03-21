@@ -1,6 +1,5 @@
 xset 600
 xss-lock -l -- screenlock -n &
 xset r rate 200 30
-xinput set-prop "DELL08AF:00 06CB:76AF Touchpad" "Coordinate Transformation Matrix" 2 0 0 0 2 0 0 0 0.5
-xinput set-prop "DELL08AF:00 06CB:76AF Touchpad" "Accel Speed" 0.1
+xinput set-prop "DELL08AF:00 06CB:76AF Touchpad" "Coordinate Transformation Matrix" 2 0 0 0 2 0 0 0 0.6
 xwallpaper --maximize ~/Pictures/Wallpapers/default
