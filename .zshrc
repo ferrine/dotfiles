@@ -108,6 +108,7 @@ export XZ_OPT=-T0
 export PATH=~/.bin:$PATH
 export EDITOR=vim
 alias god=git
+alias em='emacsclient -c'
 alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 compdef _git dot
 export DATA_ROOT=/data
