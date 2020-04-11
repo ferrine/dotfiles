@@ -8,8 +8,8 @@
 
 general {
         colors = true
-        interval = 5
-        markup = "pango"
+        interval = 1
+        # markup = "pango"
 }
 
 order += "ipv6"
