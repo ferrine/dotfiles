@@ -5,5 +5,4 @@ xrdb -merge ~/.Xresources
 xss-lock -l -- screenlock -n &
 unclutter &
 sxhkd &
-kbdd
 exec i3
