@@ -16,8 +16,3 @@ super + z
 super + g
     chromium
 
-alt + space
-    echo ''
-
-@alt
-    chrome
