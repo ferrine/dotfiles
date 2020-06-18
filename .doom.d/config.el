@@ -57,3 +57,5 @@
 (diff-hl-margin-mode t)
 (diff-hl-amend-mode t)
 (diff-hl-flydiff-mode t)
+;; lsp config
+(add-to-list 'lsp-language-id-configuration '(cuda-mode . "cpp"))

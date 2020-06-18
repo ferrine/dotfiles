@@ -4,5 +4,5 @@ xrdb -merge ~/.Xresources
 # blueman-applet &
 xss-lock -l -- screenlock -n &
 unclutter &
-sxhkd &
+sxhkd -m -1&
 exec i3
