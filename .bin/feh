@@ -1,1 +1,0 @@
-exec /bin/feh --keep-zoom-vp --auto-rotate --menu-font "yudit/24" $@

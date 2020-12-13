@@ -1,3 +1,0 @@
-#!/bin/zsh
-magick convert -size 3840x2160 <(scrot -o /dev/stdout)'[384x216]' -blur 0x5 -resize 1000% $@
-

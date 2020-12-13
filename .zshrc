@@ -105,9 +105,13 @@ fi
 source $ZSH/oh-my-zsh.sh
 export XZ_OPT=-T0
 
-export PATH=~/.bin:~/.emacs.d/bin/:$PATH
 export EDITOR=vim
 alias god=git
 alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 compdef _git dot
 export DATA_ROOT=/data
+eval "$(pyenv init - --no-rehash zsh)"
+eval "$(pyenv virtualenv-init -)"
+function workon() {
+    pyenv activate "$@" 2> >(grep -v PYENV_VIRTUALENV_DISABLE_PROMPT)
+}

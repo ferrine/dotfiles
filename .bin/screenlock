@@ -1,3 +1,0 @@
-#!/bin/zsh
-blurredshot ~/Pictures/Misc/arch-logo.png -gravity center -compose over -composite RGB:- | i3lock --raw 3840x2160:rgb --image /dev/stdin $@
-
